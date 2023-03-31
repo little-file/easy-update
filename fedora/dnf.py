@@ -8,6 +8,7 @@ def dnfup(x = True):
             x = False
 
         if z == "y":
+            os.system("#power by little-file")
             os.system("sudo dnf update -y")
             print("done")
             x = False
